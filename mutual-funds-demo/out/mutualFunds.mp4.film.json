@@ -1,0 +1,51 @@
+{
+ "film": "mutualFunds",
+ "file": "mutualFunds.mp4",
+ "sha256": "7af7a5034d795196d8e7df12821f5db8105e3cd5fbcc5b16e1127eeaa63e4bf8",
+ "frames": [
+  0,
+  900
+ ],
+ "scale": 1,
+ "blur": null,
+ "poster": null,
+ "meta": {
+  "title": "How Mutual Funds Work",
+  "W": 1920,
+  "H": 1080,
+  "fps": 30,
+  "bpm": 90,
+  "durationFrames": 900,
+  "kind": "drawing",
+  "holds": [
+   [
+    860,
+    900,
+    "final takeaway read"
+   ]
+  ],
+  "poster": 880,
+  "shots": [
+   {
+    "id": "hook",
+    "start": 0,
+    "end": 140
+   },
+   {
+    "id": "pooling",
+    "start": 140,
+    "end": 360
+   },
+   {
+    "id": "diversify",
+    "start": 360,
+    "end": 600
+   },
+   {
+    "id": "compound",
+    "start": 600,
+    "end": 900
+   }
+  ]
+ }
+}

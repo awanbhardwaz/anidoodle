@@ -353,8 +353,8 @@ const title = (k: Kit, q: number) => { if (q <= 0) return; k.ink(() => {
 }); };
 
 // ---------------------------------------------------------------- composition
-type Part = (k: Kit, q: number) => void;
-const PART: Record<string, Part> = {
+export type Part = (k: Kit, q: number) => void;
+export const PART: Record<string, Part> = {
   border: (k, q) => border(k, q), titleBox, construct, plate,
   w0: (k, q) => wheelPart(k, 0, q), p1: (k, q) => pinionPart(k, 1, q), w1: (k, q) => wheelPart(k, 1, q), p2: (k, q) => pinionPart(k, 2, q), w2: (k, q) => wheelPart(k, 2, q), p3: (k, q) => pinionPart(k, 3, q), w3: (k, q) => wheelPart(k, 3, q),
   section: sectionOut, lining, detail, detailD, dims, table, notes, title,

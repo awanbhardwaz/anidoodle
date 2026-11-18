@@ -1,0 +1,14 @@
+{
+  "name": "mutualfunds",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "three": "0.170.0"
+  },
+  "scripts": {
+    "still": "node \"C:\\Users\\home\\Desktop\\anidoodle\\skills\\anidoodle\\engine\\tools\\still.mjs\" mutualFunds",
+    "render": "node \"C:\\Users\\home\\Desktop\\anidoodle\\skills\\anidoodle\\engine\\tools\\render.mjs\" mutualFunds",
+    "framecheck": "node \"C:\\Users\\home\\Desktop\\anidoodle\\skills\\anidoodle\\engine\\tools\\framecheck.mjs\" mutualFunds",
+    "ship": "node \"C:\\Users\\home\\Desktop\\anidoodle\\skills\\anidoodle\\engine\\tools\\ship.mjs\" mutualFunds"
+  }
+}
